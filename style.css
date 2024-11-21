@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/twilight-cloud_1203-6585.jpg'); /* Example URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgb(255, 255, 255); /* Add semi-transparent background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side img {
+    width: 100%; /* Full width of the card */
+    max-height: 180px; /* Limit max height */
+    object-fit: contain; /* Ensure logo stays proportional */
+}
+
+.left-side h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #343a40;
+    margin-top: 20px;
+}
+/* Quiz Card */
+.quiz-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #28a745 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+}
